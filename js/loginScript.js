@@ -60,7 +60,7 @@ logIn.addEventListener("click", function () {
     document.getElementById("ok").remove();
     setTimeout(() => {
       localStorage.user = inp.value;
-      location.href = "/pages/tasksPage.html";
+      location.href = "/To-Do-List/pages/tasksPage.html";
     }, 1500);
   }
 });
@@ -82,7 +82,7 @@ signUp.addEventListener("click", function () {
     document.getElementById("ok").remove();
     setTimeout(() => {
       localStorage.user = inp.value;
-      location.href = "/pages/tasksPage.html";
+      location.href = "/To-Do-List/pages/tasksPage.html";
     }, 1500);
   }
 });
