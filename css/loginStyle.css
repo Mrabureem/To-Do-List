@@ -24,6 +24,11 @@ body {
   flex-direction: column;
   gap: 40px;
 }
+@media (max-width: 767px) {
+  .login {
+    width: 80%;
+  }
+}
 h2 {
   font-size: 20px;
   color: #777;
@@ -89,9 +94,9 @@ button {
 }
 .pop-up > div span {
   background-color: white;
-    color: tomato;
-    padding: 5px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-transform: capitalize;
+  color: tomato;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
 }
